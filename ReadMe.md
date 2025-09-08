@@ -56,44 +56,10 @@ This application has several main features, divided by access level:
 
 ### Directory Structure
 
-.
-├── admin/
-│   ├── buku.php
-│   ├── dbcon.php
-│   ├── depan.php
-│   ├── editBuku.php
-│   ├── editSiswa.php
-│   ├── hapus-buku.php
-│   ├── hapus-peminjaman.php
-│   ├── hapus-siswa.php
-│   ├── home.php
-│   ├── img/
-│   ├── index.php
-│   ├── logout.php
-│   ├── peminjaman.php
-│   ├── simpan-buku.php
-│   ├── simpan-edit-buku.php
-│   ├── simpan-edit-siswa.php
-│   ├── simpan-pinjam.php
-│   ├── simpan-siswa.php
-│   ├── siswa.php
-│   ├── style.css
-│   └── style2.css
-├── img/
-├── .gitignore
-├── buku.php
-├── dbcon.php
-├── depan.php
-├── home.php
-├── index.php
-├── logout.php
-├── peminjaman.php
-├── registrasi.php
-├── simpan-pinjam.php
-├── simpan-siswa.php
-├── siswa.php
-├── style.css
-└── style2.css
+| File               | Description                                      |
+|--------------------|--------------------------------------------------|
+| `TaskScheduler.c`  | Core implementation of the task scheduler        |
+| `TaskScheduler.h`  | Public API and task data structure definitions   |
 
 ---
 
