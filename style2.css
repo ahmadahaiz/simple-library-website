@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+.container{
+    background-image: url(img/book.jpg);
+  }
+
+.kiri{
+    float: left;
+    background: blueviolet;
+    width: 240px;
+    height: 100%;
+    border-right: 7px solid violet;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+.kiri ul{
+    margin-top: 64px;
+  }
+.kiri ul a li{
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+  }
+.kiri ul a{
+    text-decoration: none;
+  }
+.kiri ul a li:hover{
+    background: #fff;
+    color: blueviolet;
+  }
+.kanan{
+    padding-bottom: 100px;
+    padding-top: 60px;
+    margin: auto;
+    background-color: rgba(255,255,255, .95);
+    width: 60%;
+    border: 3px solid black;
+    height: 74.8%;
+    overflow: auto;
+    
+  }
+.cari{
+    margin-left: 8%;
+    margin-right: 7%;
+    height: 50px;
+    width: 60%;
+    border: 1px solid #d9d9d9;
+    border-bottom: 1px solid blueviolet;
+    margin-top: 16px;
+    font-size: 15px;
+    padding: 4px;
+  }
+  
+.input{
+    height: 50px;
+    width: 97%;
+    border: 1px solid #d9d9d9;
+    border-bottom: 1px solid blueviolet;
+    margin-top: 16px;
+    font-size: 15px;
+    padding: 4px;
+  }
+.text-area{
+    height: 50px;
+    width: 97%;
+    border: 1px solid #d9d9d9;
+    border-bottom: 1px solid blueviolet;
+    margin-top: 16px;
+    font-size: 15px;
+    padding: 4px;
+}
+.right{
+    float: right;
+  }
+.submit{
+    padding: 12px 14px;
+    background: #fff;
+    color: blueviolet;
+    border-radius: 8px;
+    border: 1px solid blueviolet;
+    margin-top: 16px;
+    transition: .3%;
+  }
+.submit:hover{
+    background: blueviolet;
+    color: #fff;
+  }
+
+
+.tabel tr th{
+    padding: 8px;
+    background: blue;
+    color: #fff;
+}
+.tabel td{
+    padding: 4px;
+}
+
+img{
+  width: auto ;
+  margin-left: 35%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
