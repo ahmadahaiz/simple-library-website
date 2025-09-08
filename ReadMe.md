@@ -55,6 +55,7 @@ This application has several main features, divided by access level:
 ---
 
 ### Directory Structure
+
 .
 ├── admin/
 │   ├── buku.php
@@ -93,6 +94,7 @@ This application has several main features, divided by access level:
 ├── siswa.php
 ├── style.css
 └── style2.css
+
 ---
 
 ### Installation and Usage
